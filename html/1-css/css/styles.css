@@ -1,20 +1,25 @@
 /* Estilos para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-color: #b80202;
+    background-color: #624566;
     margin: 0;
     padding: 0;
 }
 
 /* Estilos para encabezados */
 h1 {
-    color: #13bcff;
+    color: #ff2313;
 }
 
 /* Estilos para párrafos */
 p {
+    background-color: white;
     font-size: 16px;
     line-height: 1.5;
+    color: gray;
+}
+.uno{
+    background-color: rgb(0, 0, 0);
 }
 
 /* Estilos para enlaces */
