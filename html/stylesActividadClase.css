@@ -1,0 +1,59 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Encabezado */
+header {
+    background-color: #800000; /* Rojo oscuro */
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+/* Contenido principal */
+main {
+    background-color: white;
+    width: 94%;
+    margin: 20px auto;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/* Enlace */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Pie de página */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    font-style: italic;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
