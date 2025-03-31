@@ -1,0 +1,106 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  /* Garantiza que el footer se mantenga abajo */
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    background: url('./imagenes/fongoCafe.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+main {
+    flex: 1; 
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(107, 107, 107, 0.4);
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav a:first-child {
+    color:#dba05e;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about {
+    text-align: center;
+    padding: 60px 20px;
+    background: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+    border-radius: 10px;
+    color: black;
+}
+
+.about h2 {
+    color: #c27b48;
+    position: relative;
+}
+
+.about h2::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    background: #c27b48;
+    margin: 10px auto;
+}
+
+.services {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    color: black;
+}
+
+.service-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+button {
+    background: #c27b48;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background: rgba(107, 107, 107, 0.4);
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
